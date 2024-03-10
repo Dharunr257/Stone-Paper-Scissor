@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="header">Stone Paper Scissor</h1>
+    <!-- ----------------------------------------------------- -->
+    <div class="msg-container hide">
+        <p id="msg">.</p>
+        <button id="new-btn">New Game</button>
+    </div>
+    <!-- ----------------------------------------------------- -->
+    <div class="bigdiv">
+        <div class="div1">
+        <div class="container">
+        <div class="box">
+            <div class="stonediv gdiv">
+                <button id="Stone " class="gbtn"><img class="img" src="rock.jpg" alt="Image of rock"></button>
+                <p class="p">Stone</p>
+            </div>
+            <div class="paperdiv gdiv">
+                <button id="Paper " class="gbtn"><img class="img" src="paper.jpg" alt="Image of paper"></button>
+                <p class="p">Paper</p>
+            </div>
+            <div class="scissordiv gdiv">
+                <button id="Scissor " class="gbtn"><img class="img" src="scissors.jpg" alt="Image of scissor"></button>
+                <p class="p">Scissor</p>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    
+    <!-- ----------------------------------------------------- -->
+    <div class="div2">
+        <div class="Choicecontaoner">
+            <div class="plachoice choicediv">
+                <p class="playerChoice">Player Choice </p>
+                <p class="choicepla">...</p>
+            </div>
+            <div class="Compchoice choicediv">
+                <p class="computerChoice">Computer Choice </p>
+                <p class="choicecom">...</p>
+            </div>
+        </div>
+        <!-- ----------------------------------------------------- -->
+        <div class="ptcontainer">
+            <div class="player pt">
+                <p class="scorepla">0</p>
+                <p>Player</p>
+            </div>
+            <div class="Computer pt">
+                <p class="scorecom">0</p>
+                <p>Computer</p>
+            </div>
+        </div>
+        <!-------------------------------------------------------- -->
+        <div class="pclass">
+            <p class="result"> now winner till now</p>
+            <button class="Reset">Restart</button>
+        </div>
+    </div>
+    </div>
+    
+
+</body>
+<script src="app.js"></script>
+
+</html>
